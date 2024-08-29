@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Application Form</title>
+</head>
+
+<body>
+<!-- Header Section -->
+<table width="100%" border="0" cellpadding="1" cellspacing="5" align="center">
+    <tr>
+        <td align="center" bgcolor="lightblue" style="color: rgb(0, 0, 0);">
+            <h1>Government Application Form</h1>
+        </td>
+    </tr>
+</table>
+
+<br><br>
+<form action="/submit-application" method="POST">
+    <table border="1.5" cellpadding="14" align="center">
+        <tr>
+            <th colspan="2">Please fill out the form below:</th>
+        </tr>
+        <tr>
+            <td><label for="name">Full Name:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="feedback-type">Phone number</label></td>
+            <td><input type="text" id="name" name="number" required></td>
+            
+        </tr>
+        <tr>
+            <td><label for="comments">Address:</label></td>
+            <td><textarea id="comments" name="comments" rows="2" required></textarea></td>
+        </tr>
+        <tr></tr>
+        <td class="label"><label for="dob">Date of Birth</label></td>
+        <td class="input"><input type="date" id="dob" name="dob" required></td>
+    
+    </tr>
+    <tr>
+        <td><label for="application-type">Type of Application:</label></td>
+        <td>
+            <select id="application-type" name="application-type" required>
+                <option value="visa">Visa Application</option>
+                <option value="permit">Permit Application</option>
+                <option value="license">License Application</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="comments">Additional Comments</label></td>
+        <td><textarea id="comments" name="comments" rows="2" required></textarea></td>
+    </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit ">
+            </td>
+        </tr>
+    </table>
+</form>
+<!-- Footer Section -->
+<table width="100%" border="0" cellpadding="3" cellspacing="15" align="center">
+    <tr>
+        <td align="center" bgcolor="lightblue">
+            <p>&copy; 2024 Government Application Form.All rights reserved.</p>
+            <p>For assistance, contact subhikshaa13@gmail.com</p>
+        </td>
+        <br><br>
+    </tr>
+</table>
+
+</body>
+</html>
